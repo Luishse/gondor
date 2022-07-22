@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario gas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1 class="header_1">Formulario para caracterizar redes internas de gas</h1>
+        <h2 class="header_2">Tecnokima LTDA</h2>
+        <ol class="header_lista">
+            <li>Datos de la instalación</li>
+            <li>Aspectos tecnico de la red</li>
+            <li>Puesta en servicio</li>
+            <li>Consideraciones</li>
+            <li>Requisitos de seguridad</li>
+            <li>Firmas</li>
+            <li>Memorias de calculo</li>
+            <li>Esquema Tridimencional</li>
+            <li>Datos de liquidación</li>
+            <li>Información cliente + OT</li>
+            <li>Item acometida</li>
+            <li>Item red interna</li>
+            <li>Item servicio</li>
+            <li>Referenciación y acometidas</li>
+        </ol>
+    </header>
+    <main>
+        <h3>1. Datos de la instalación:</h3> 
+        <!-- Estos son los datos basicos -->
+        <form action="/signup" method="post">
+            <p>
+                <label>Nombre / Razon Social:</label><br>
+                <input type="text" name="Nombre / Razon Social:">
+              </p>
+            <p>
+                <label>Teléfono:</label><br>
+                <input type="number" name="Teléfono:">
+              </p>
+            <p>
+                <label>Orden de trabajo / pedido:</label><br>
+                <input type="number" name="Orden de trabajo / pedido:">
+              </p>
+            <p>
+                <label>Dirección:</label><br>
+                <input type="text" name="Dirección:">
+              </p>
+            <p>
+                <label>Municipio</label><br>
+                <input type="text" name="Municipio:">
+                </p>
+            <p>
+                <label>Código de Instalación (18 digitos):</label><br>
+                <input type="number" name="Código de Instalación (18 digitos):">
+                </p>
+            <label>
+                <input type="radio" name="Construcción red Interna" value="check">
+                Construcción red Interna
+                </label>
+            <label>
+                <input type="radio" name="Habilitación Servicio" value="check">
+                Habilitación Servicio
+                </label>
+            </p>
+        </form>
+        <h3>2. Aspectos tecnico de la red</h3>
+        <form action="/signup" method="post">
+            <p>
+                <label>Residencial:</label><br>
+                <label>
+                  <input type="radio" name="Nueva" value="check">
+                  Nueva
+                </label>
+                <label>
+                  <input type="radio" name="Reforma" value="check">
+                  Reforma
+                </label>
+              </p>
+            <p>
+                <label>Comercial:</label><br>
+                <label>
+                  <input type="radio" name="Nueva" value="check">
+                  Nueva
+                </label>
+                <label>
+                  <input type="radio" name="Reforma" value="check">
+                  Reforma
+                </label>
+              </p>
+            <p>
+                <label>Industrial:</label><br>
+                <label>
+                  <input type="radio" name="Nueva" value="check">
+                  Nueva
+                </label>
+                <label>
+                  <input type="radio" name="Reforma" value="check">
+                  Reforma
+                </label>
+              </p>
+            <p>
+                <label>Número de anillo:</label>
+                <input type="text" name="first_name">
+              </p>
+            <p>
+                <label>Número de salidas</label>
+                <input type="text" name="last_name">
+              </p>
+            <p>
+                <label>Tubería:</label><br>
+                <label>
+                  <input type="radio" name="Acero" value="mr">
+                  Acero
+                </label>
+                <label>
+                  <input type="radio" name="Cobre" value="mrs">
+                  Cobre
+                </label>
+                <label>
+                  <input type="radio" name="Pealpe" value="miss">
+                  Pealpe
+                </label>
+                <label>
+                  <input type="radio" name="otra:" value="miss">
+                  otra:
+                </label>
+                <label>
+                  Cuál:
+                <input type="text" name="Cual">
+                </label>
+              </p>
+            <p>
+                <label>Unión:</label><br>
+                <label>
+                  <input type="radio" name="Acero" value="mr">
+                  Soldada
+                </label>
+                <label>
+                  <input type="radio" name="Cobre" value="mrs">
+                  Roscada
+                </label>
+                <label>
+                  <input type="radio" name="Pealpe" value="miss">
+                  Abocinada
+                </label>
+                <label>
+                  <input type="radio" name="otra:" value="miss">
+                  otra:
+                </label>
+                <label>
+                  Cuál:
+                <input type="text" name="Cual">
+                </label>
+              </p>
+            <p>
+                <label>Trazado:</label><br>
+                <label>
+                  <input type="radio" name="Acero" value="mr">
+                  Embebida:
+                </label>
+                <label>
+                  <input type="radio" name="Cobre" value="mrs">
+                  A la vista:
+                </label>
+                <label>
+                  <input type="radio" name="Pealpe" value="miss">
+                  Por Conducto:
+                </label>
+              </p>
+            <p>
+                <label>Protección mecánica:</label><br>
+                <label>
+                  <input type="radio" name="Acero" value="mr">
+                  Si:
+                </label>
+                <label>
+                  <input type="radio" name="otra:" value="miss">
+                  otra:
+                </label>
+                <label>
+                  Cuál:
+                <input type="text" name="Cual">
+                </label>
+                <label>
+                  <input type="radio" name="Pealpe" value="miss">
+                  No:
+                </label>
+              </p>
+            <p>
+                <label>Protección Anticorrosión:</label><br>
+                <label>
+                  <input type="radio" name="Acero" value="mr">
+                  Si:
+                </label>
+                <label>
+                  <input type="radio" name="otra:" value="miss">
+                  Cuál:
+                </label>
+                <label>
+                  Cuál:
+                <input type="text" name="Cual">
+                </label>
+                <label>
+                  <input type="radio" name="Pealpe" value="miss">
+                  No:
+                </label>
+              </p>
+              <p>
+                <label>Hermeticidad:</label><br>
+                <p>
+                  <label>Inicial:</label><br>
+                  <input type="text" name="Dirección:">
+                  <label>bar</label>
+                </p>
+                <p>
+                  <label>Final:</label><br>
+                  <input type="text" name="Municipio:">
+                  <label>bar</label>
+                  </p>
+                <p>
+                  <label>Fecha:</label><br>
+                  <input type="date" name="Municipio:">
+                  </p>
+              </p>
+
+        </form>
+
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+        <h3></h3>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
